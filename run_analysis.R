@@ -1,4 +1,3 @@
-setwd("C:/Users/Himanshu/Desktop/CourseraRCleaningData/Project1")
 
 #Downloading the data and unzipping it
 if(!file.exists("data.zip"))
