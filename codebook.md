@@ -1,0 +1,119 @@
+# Code Book
+
+## Subject and Activity
+
+These variables identify the unique subject/activity pair the variables relate to:
+
+ - Subject: the integer subject ID.
+ - Activity: the string activity name:
+  - Walking
+  - Walking Upstairs
+  - Walking Downstairs
+  - Sitting
+  - Standing
+  - Laying
+
+## Measurement Means
+
+All variables are the mean of a measurement for each subject and activity. This is indicated by the initial Mean in the variable name followed by _. All values are floating numbers.
+
+ - Time domain body acceleration mean along X, Y, and Z:
+  - Mean_TimeBodyAccMeanX
+  - Mean_TimeBodyAccMeanY
+  - Mean_TimeBodyAccMeanZ
+ - Time domain body acceleration standard deviation along X, Y, and Z:
+  - Mean_TimeBodyAccStdDevX
+  - Mean_TimeBodyAccStdDevY
+  - Mean_TimeBodyAccStdDevZ
+ - Time domain gravity acceleration mean along X, Y, and Z:
+  - Mean_TimeGravityAccMeanX
+  - Mean_TimeGravityAccMeanY
+  - Mean_TimeGravityAccMeanZ
+ - Time domain gravity acceleration standard deviation along X, Y, and Z:
+  - Mean_TimeGravityAccStdDevX
+  - Mean_TimeGravityAccStdDevY
+  - Mean_TimeGravityAccStdDevZ
+ - Time domain body jerk mean along X, Y, and Z:
+  - Mean_TimeBodyAccJerkMeanX
+  - Mean_TimeBodyAccJerkMeanY
+  - Mean_TimeBodyAccJerkMeanZ
+ - Time domain body jerk standard deviation along X, Y, and Z:
+  - Mean_TimeBodyAccJerkStdDevX
+  - Mean_TimeBodyAccJerkStdDevY
+  - Mean_TimeBodyAccJerkStdDevZ
+ - Time domain gyroscope mean along X, Y, and Z:
+  - Mean_TimeBodyGyroMeanX
+  - Mean_TimeBodyGyroMeanY
+  - Mean_TimeBodyGyroMeanZ
+ - Time domain gyroscope standard deviation along X, Y, and Z:
+  - Mean_TimeBodyGyroStdDevX
+  - Mean_TimeBodyGyroStdDevY
+  - Mean_TimeBodyGyroStdDevZ
+ - Time domain gyroscope jerk mean along X, Y, and Z:
+  - Mean_TimeBodyGyroJerkMeanX
+  - Mean_TimeBodyGyroJerkMeanY
+  - Mean_TimeBodyGyroJerkMeanZ
+ - Time domain gyroscope jerk standard deviation along X, Y, and Z:
+  - Mean_TimeBodyGyroJerkStdDevX
+  - Mean_TimeBodyGyroJerkStdDevY
+  - Mean_TimeBodyGyroJerkStdDevZ
+ - Time domain body acceleration magnitude mean:
+  - Mean_TimeBodyAccMagMean
+ - Time domain body acceleration magnitude standard deviation:
+  - Mean_TimeBodyAccMagStdDev
+ - Time domain gravity acceleration magnitude mean:
+  - Mean_TimeGravityAccMagMean
+ - Time domain gravity acceleration magnitude standard deviation:
+  - Mean_TimeGravityAccMagStdDev
+ - Time domain body jerk magnitude mean:
+  - Mean_TimeBodyAccJerkMagMean
+ - Time domain body jerk magnitude standard deviation:
+  - Mean_TimeBodyAccJerkMagStdDev
+ - Time domain gyroscope magnitude mean:
+  - Mean_TimeBodyGyroMagMean
+ - Time domain gyroscope magnitude standard deviation:
+  - Mean_TimeBodyGyroMagStdDev
+ - Time domain gyroscope jerk magnitude mean:
+  - Mean_TimeBodyGyroJerkMagMean
+ - Time domain gyroscope jerk magnitude standard deviation:
+  - Mean_TimeBodyGyroJerkMagStdDev
+ - Frequency domain body acceleration mean along X, Y, and Z:
+  - Mean_FreqBodyAccMeanX
+  - Mean_FreqBodyAccMeanY
+  - Mean_FreqBodyAccMeanZ
+ - Frequency domain body acceleration standard deviation along X, Y, and Z:
+  - Mean_FreqBodyAccStdDevX
+  - Mean_FreqBodyAccStdDevY
+  - Mean_FreqBodyAccStdDevZ
+ - Frequency domain body jerk mean along X, Y, and Z:
+  - Mean_FreqBodyAccJerkMeanX
+  - Mean_FreqBodyAccJerkMeanY
+  - Mean_FreqBodyAccJerkMeanZ
+ - Frequency domain body jerk standard deviation along X, Y, and Z:
+  - Mean_FreqBodyAccJerkStdDevX
+  - Mean_FreqBodyAccJerkStdDevY
+  - Mean_FreqBodyAccJerkStdDevZ
+ - Frequency domain gyroscope mean along X, Y, and Z:
+  - Mean_FreqBodyGyroMeanX
+  - Mean_FreqBodyGyroMeanY
+  - Mean_FreqBodyGyroMeanZ
+ - Frequency domain gyroscope standard deviation along X, Y, and Z:
+  - Mean_FreqBodyGyroStdDevX
+  - Mean_FreqBodyGyroStdDevY
+  - Mean_FreqBodyGyroStdDevZ
+ - Frequency domain body acceleration magnitude mean:
+  - Mean_FreqBodyAccMagMean
+ - Frequency domain body acceleration magnitude standard deviation:
+  - Mean_FreqBodyAccMagStdDev
+ - Frequency domain body jerk magnitude mean:
+  - Mean_FreqBodyAccJerkMagMean
+ - Frequency domain body jerk magnitude standard deviation:
+  - Mean_FreqBodyAccJerkMagStdDev
+ - Frequency domain gyroscope magnitude mean:
+  - Mean_FreqBodyGyroMagMean
+ - Frequency domain gyroscope magnitude standard deviation:
+  - Mean_FreqBodyGyroMagStdDev
+ - Frequency domain gyroscope jerk magnitude mean:
+  - Mean_FreqBodyGyroJerkMagMean
+ - Frequency domain gyroscope jerk magnitude standard deviation:
+  - Mean_FreqBodyGyroJerkMagStdDev
